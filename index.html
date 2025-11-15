@@ -343,6 +343,27 @@
 
   <!-- Your main script (keep as defer so it doesn't block) -->
   <script src="js/main.js" defer></script>
+  <!-- Floating Chatbot -->
+<div class="chatbot-launcher" id="chatbotLauncher">💬</div>
+
+<div class="chatbot-container" id="chatbotContainer">
+  <div class="chatbot-header">
+    <div class="chatbot-title">
+      <span class="dot dot-green"></span>
+      <span>Portfolio Assistant</span>
+    </div>
+    <button id="chatbotClose" aria-label="Close chatbot">&times;</button>
+  </div>
+  <div class="chatbot-messages" id="chatbotMessages"></div>
+  <div class="chatbot-input">
+    <input
+      type="text"
+      id="chatbotInput"
+      placeholder="Ask about my experience, projects, skills..."
+    />
+    <button id="chatbotSend">Send</button>
+  </div>
+</div>
 </body>
 
 </html>
