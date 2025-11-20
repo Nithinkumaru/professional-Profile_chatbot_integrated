@@ -39,7 +39,7 @@ A clean, modern, and responsive personal portfolio website showcasing projects, 
 
 ## Live demo
 Your site will be available at:  
-`https://nithinkumaru.github.io/professional-Profile/`  
+`https://nithinkumaru.github.io/professional-Profile_chatbot_integrated/`  
 (if you use GitHub Pages for the `main` branch)
 
 ---
